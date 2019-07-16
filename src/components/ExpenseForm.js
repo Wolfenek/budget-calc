@@ -27,6 +27,7 @@ const ExpenseForm = ({
           <label htmlFor="amount">amount</label>
           <input
             type="number"
+            min="0"
             className="form-control"
             id="amount"
             name="amount"
